@@ -1,0 +1,111 @@
+.audio-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .audio-controls button {
+    margin: 5px;
+  }
+  
+  .audio-progress {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .imagen-personalizada {
+    width: 300px; /* Establece el ancho en píxeles */
+    height: auto; /* Esto mantiene la proporción original de la imagen */
+  }
+  
+  ion-card {
+    margin: 20px; /* Ajusta el margen según sea necesario */
+  }
+  
+  /* Estilo para el encabezado de la tarjeta */
+  ion-card-header {
+    background-color: #007bff; /* Color de fondo del encabezado */
+    color: white; /* Color del texto del encabezado */
+    font-size: 18px; /* Tamaño de fuente del encabezado */
+    text-align: center; /* Alineación del texto del encabezado */
+  }
+  
+  /* Estilo para el contenido de la tarjeta */
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ajusta la altura al 100% de la ventana */
+  }
+  
+  /* Estilo para la lista de canciones (lado izquierdo) */
+  .song-list {
+    flex: 1; /* Ocupa el espacio disponible en el lado izquierdo */
+  }
+  
+  /* Estilo para la barra de reproducción (lado derecho) */
+  .audio-player {
+    text-align: left; /* Alinea la barra de reproducción a la derecha */
+    margin-top: 0px; /* Agregar espacio superior */
+  }
+
+  .custom-card {
+    margin-top: 20px;
+  }
+
+  .imagen-nueva-top-left {
+    width: 300px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto; /* Esto mantiene la proporción original de la imagen */
+    position: absolute; /* Cambia la posición a absolute para poder posicionar con top y left */
+    top: 0; /* Coloca la imagen en la parte superior */
+    left: 0; /* Coloca la imagen en la parte izquierda */
+    z-index: -1; /* Coloca la imagen por encima del contenido principal y las tarjetas */
+  
+  }
+
+  .imagen-nueva {
+    width: 400px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto; /* Esto mantiene la proporción original de la imagen */
+    position: absolute; /* Cambia la posición a absolute para poder posicionar con bottom y right */
+    bottom: 0; /* Coloca la imagen en la parte inferior */
+    right: 0; /* Coloca la imagen en la parte derecha */
+    z-index: -1; /* Coloca la imagen por encima del contenido principal y las tarjetas */
+  }  
+
+  .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .orange-title {
+    color: orange; /* Color naranja para el título */
+    font-size: 30px; /* Tamaño de fuente del título */
+  }
+
+
+  .divider {
+    height: 2px;
+    background-color: orange;
+    width: 50%; /* Ancho de la línea, ajusta según lo desees */
+    margin: 0 auto; /* Centra la línea horizontalmente */
+  }
+
+  ion-tab-bar[slot="bottom"] {
+    --background: #EA9010;
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  

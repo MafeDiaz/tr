@@ -1,0 +1,77 @@
+    .card-container {
+    display: flex;
+    justify-content: space-around; /* Espacio entre las tarjetas */
+    align-items: flex-start; /* Alinear las tarjetas en la parte superior */
+    flex-wrap: wrap; /* Permitir el ajuste de línea si el espacio es insuficiente */
+    position: relative;
+    z-index: 1; /* Asegura que el contenedor de tarjetas esté por encima de la imagen de fondo inferior */
+  }
+  
+  .card {
+    flex: 0 0 calc(40% - 10px); /* Reducir el ancho de las tarjetas a 40% */
+    margin-bottom: 10px; /* Espacio inferior entre las tarjetas */
+  }
+  
+  .imagen-nueva {
+    width: 400px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto; /* Esto mantiene la proporción original de la imagen */
+    position: absolute; /* Cambia la posición a absolute para poder posicionar con bottom y right */
+    bottom: 0; /* Coloca la imagen en la parte inferior */
+    right: 0; /* Coloca la imagen en la parte derecha */
+  }  
+
+
+  .imagen-nueva-top-left {
+    width: 300px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto; /* Esto mantiene la proporción original de la imagen */
+    position: absolute; /* Cambia la posición a absolute para poder posicionar con top y left */
+    top: 0; /* Coloca la imagen en la parte superior */
+    left: 0; /* Coloca la imagen en la parte izquierda */
+    z-index: -2; /* Coloca la imagen por encima del contenido principal y las tarjetas */
+
+  }
+
+  .custom-header {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    height: 100%; /* Asegura que el encabezado de la tarjeta ocupe todo el espacio vertical */
+  }
+  
+  .custom-icon {
+    font-size: 3rem; /* Tamaño del icono, ajusta según tus necesidades */
+    color: orange; /* Cambia el color del icono a naranja */
+  }
+
+  .custom-header2 {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    height: 100%; /* Asegura que el encabezado de la tarjeta ocupe todo el espacio vertical */
+  }
+
+  .icon {
+    font-size: 3rem; /* Tamaño del icono, ajusta según tus necesidades */
+    color: orange; /* Cambia el color del icono a naranja */
+  }
+
+  .custom-header3 {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    height: 100%; /* Asegura que el encabezado de la tarjeta ocupe todo el espacio vertical */
+  }
+
+  .icon3 {
+    font-size: 3rem; /* Tamaño del icono, ajusta según tus necesidades */
+    color: orange; /* Cambia el color del icono a naranja */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,38 @@
+ion-content.ion-text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+
+ion-card {
+  background-color: rgba(255, 255, 255, 0.8); /* Color de fondo de la tarjeta con opacidad */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+ion-button {
+  width: 100%;
+}
+
+.imagen-nueva-top-left {
+  width: 300px; /* Ajusta el ancho de la imagen según tus necesidades */
+  height: auto; /* Esto mantiene la proporción original de la imagen */
+  position: absolute; /* Cambia la posición a absolute para poder posicionar con top y left */
+  top: 0; /* Coloca la imagen en la parte superior */
+  left: 0; /* Coloca la imagen en la parte izquierda */
+  z-index: -1; /* Coloca la imagen por encima del contenido principal y las tarjetas */
+
+}
+
+.imagen-nueva {
+  width: 400px; /* Ajusta el ancho de la imagen según tus necesidades */
+  height: auto; /* Esto mantiene la proporción original de la imagen */
+  position: absolute; /* Cambia la posición a absolute para poder posicionar con bottom y right */
+  bottom: 0; /* Coloca la imagen en la parte inferior */
+  right: 0; /* Coloca la imagen en la parte derecha */
+  z-index: -1; /* Coloca la imagen por encima del contenido principal y las tarjetas */
+}  

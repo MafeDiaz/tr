@@ -1,0 +1,37 @@
+
+
+<img src="../../assets/icon/IMG-20230908-WA0016.jpg" class="imagen-personalizada">
+
+
+
+<ion-content class="ion-padding login-background">
+  
+  <div class="ion-text-center login-container">
+    <div class="spacer"></div> <!-- Espacio para empujar el contenido hacia la parte inferior -->
+    <form [formGroup]="formularioLogin" class="login-form">
+
+      <ion-card>
+        <ion-card-header color="primary">     
+           <ion-title class="form-title">LOGIN</ion-title> <!-- Título del formulario --></ion-card-header>
+      </ion-card>    
+
+        <ion-item>
+          <ion-label position="floating" >username</ion-label>
+          <ion-input formControlName="nombre"></ion-input>
+        </ion-item>
+       
+        <ion-item>
+          <ion-label position="floating" >password</ion-label>
+          <ion-input formControlName="password" type="password"></ion-input>
+        </ion-item>
+        
+        <ion-button expand="full" (click)="ingresar()" class="login-button">Ingresar</ion-button>
+    </form>
+    
+  </div>
+  <img src="../../assets/icon/image (2).png" class="imagen-nueva">
+</ion-content>
+
+
+
+
